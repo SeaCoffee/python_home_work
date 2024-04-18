@@ -245,7 +245,6 @@ while i <= 10:
 
 # 4 переробити це завдання під меню
 
- '''
 
 
 def menu():
@@ -289,7 +288,22 @@ def menu():
 
 
 menu()
+ '''
 
+
+def stars_square(side_length):
+    for i in range(side_length):
+        if i == 0 or i == side_length - 1:
+            for j in range(20):
+                print('*', end='')
+        else:
+            print('*', end='')
+            for j in range(1, 19):
+                print(' ', end='')
+            print('*', end='')
+        print()
+
+stars_square(5)
 
 
 
