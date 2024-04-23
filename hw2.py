@@ -80,6 +80,9 @@ expanded_form(70304) # return '70000 + 300 + 4'
 та буде виводити це значення після виконання функцій
 
 
+
+
+
 def countcall(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
@@ -106,8 +109,7 @@ func1()
 func2()
 func1()
 func2()
-
-'''
+"""
 
 
 
