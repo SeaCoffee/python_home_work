@@ -163,14 +163,14 @@ class Main:
 
     @classmethod
     def show_all_magazines(cls):
-        print("All Magazines:")
+        print("All magazines:")
         for item in cls.printable_list:
             if isinstance(item, Magazine):
                 item.print()
 
     @classmethod
     def show_all_books(cls):
-        print("All Books:")
+        print("All books:")
         for item in cls.printable_list:
             if isinstance(item, Book):
                 item.print()
